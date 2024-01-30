@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="./styles.css">
+      
+</head>
+    
+<body>
+    <center>
+        <h1>ADMIN DASHBOARD</h1>
+    </center>
+
+    <h3>USER DATA : </h3>
+    <div id="user-data"></div>
+
+    <!-- Button to fetch data -->
+    <button id="fetch-button">Get Users</button>
+    <!-- UI for Displaying and Updating Products -->
+<h3>PRODUCT LIST</h3>
+<div id="product-list"></div>
+
+<!-- Form for Updating Product -->
+<h3>UPDATE PRODUCT</h3>
+<form id="update-product-form">
+  
+  
+  <label for="productName">Product Id:</label>
+    <input type="text" id="productId" name="productName" required>
+    <br>
+
+  <label for="productName">Product Name:</label>
+    <input type="text" id="productName" name="productName" required>
+    <br>
+
+    <label for="productDescription">Product Description:</label>
+    <input type="text" id="productDescription" name="productDescription">
+    <br>
+    <label for="productImage">Product Image URL:</label>
+    <input type="text" id="productImage" name="productImage">
+    <br>
+    <label for="productPrice">Product Price:</label>
+    <input type="number" id="productPrice" name="productPrice" step="0.01" required>
+    <br>
+    <button type="submit">Update Product</button>
+</form>
+
+
+<div id="add-product-form">
+    <h2>Add New Product</h2>
+    <form id="product-form">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="addProductName" required>
+  
+      <label for="productDescription">Description:</label>
+      <textarea id="addProductDescription"></textarea>
+  
+      <label for="productImage">Image URL:</label>
+      <input type="text" id="addProductImage">
+  
+      <label for="productPrice">Price:</label>
+      <input type="number" id="addProductPrice" required>
+  
+      <button type="submit">Add Product</button>
+    </form>
+  </div>
+  
+  
+<script src="./index.js">     
+</script>
+</body>
+</html>

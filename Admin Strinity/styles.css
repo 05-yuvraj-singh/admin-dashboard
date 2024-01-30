@@ -1,0 +1,186 @@
+/* Customize the table appearance as desired */
+
+body {
+    max-width: 1200px; /* Replace 1200px with your desired maximum width */
+    margin: 0 auto;
+  }
+  
+  
+  #product-list div {
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+.user-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #user-data {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #product-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #update-product-form,
+  #add-product-form {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #update-product-form label,
+  #add-product-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #update-product-form input,
+  #add-product-form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  #add-product-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  #update-product-form button,
+  #add-product-form button {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ddd;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  #update-product-form button:hover,
+  #add-product-form button:hover {
+    background-color: #ccc;
+  }
+  
+  /* You can add further styles for specific elements, tables, etc. 
+  as needed here. */
+  body {
+    font-family: sans-serif;
+    background-color: #f4f6f8; /* Light blue-gray */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 20px; /* Added margin to prevent overlapping */
+  }
+  
+  #user-data, #product-list {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  #fetch-button {
+    margin-top: 20px; /* Added margin to prevent overlapping */
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Soften edges */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in width calculations */
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Customize further for a cohesive look */
+  
+  
